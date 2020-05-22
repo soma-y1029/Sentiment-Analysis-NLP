@@ -1,5 +1,4 @@
-# Sample-Tweets-NLP
-Natural Language Processing of Sentiment Analysis with NLTK
+# Natural Language Processing of Sentiment Analysis with NLTK
 
 Trained with NLTK's tweets sample
 
