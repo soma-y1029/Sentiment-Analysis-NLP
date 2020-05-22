@@ -52,7 +52,6 @@ def user_operation_message(classifier):
     while not end:
         message = input("Enter your message to see sentiment: \n")
         custom_tokens = remove_noise(word_tokenize(message))
-
         print(f'Entered message: \n'
             f'{message}\n'
             f'is {classifier.classify(dict([token, True] for token in custom_tokens))}')
